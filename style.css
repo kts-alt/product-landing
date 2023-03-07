@@ -1,0 +1,94 @@
+body {
+    font-family: rockwell;
+    background-color: #DCDCDC;
+  }
+  
+#header {
+    background-color: #606060;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    top: 0;
+    left: 0;
+}
+  
+#header-img {
+    max-height: 100%;
+    max-width: 100%;
+}
+  
+h1 {
+    padding-top: 75px;
+    font-size: 30px;
+    text-align: center;
+}
+  
+#nav-bar {
+    float: right;
+}
+  
+.nav-link {
+    position: relative;
+    top: 15px;
+    font-size: 1em;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+  
+#company-name {
+    position: absolute;
+    left: 105px;
+    top: -5px;
+    font-size: 30px;
+}
+  
+#email {
+    padding: 5px;
+}
+  
+#top-content {
+    margin: auto;
+    width: 30%;
+    border: 3px solid white;
+    /*border property used to see visual changes on page*/
+    padding: 5px;
+    text-align: center;
+}
+  
+#main-content {
+    text-align: center;
+}
+  
+.pricing-box {
+    border: solid;
+}
+  
+#packages {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+  
+@media (max-width: 700px) {
+    body {
+      background-color: red;
+    }
+    #header{
+      height: 145px;
+    }
+    h1 {
+      padding-top: 180px;
+    }
+    #company-name {
+      position: relative;
+      left: -160px;
+    }
+    #nav-content {
+      display: flex;
+      flex-direction: column;
+    }
+    
+}
